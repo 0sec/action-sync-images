@@ -33,5 +33,5 @@ jobs:
          skopeo copy docker://docker.io/dongtai/dongtai-mysql:latest docker://registry.cn-hangzhou.aliyuncs.com/corpbf/dongtai-mysql:latest
          skopeo copy docker://docker.io/dongtai/dongtai-web:latest docker://registry.cn-hangzhou.aliyuncs.com/corpbf/dongtai-web:latest
          skopeo copy docker://docker.io/dongtai/dongtai-mysql-unittest:latest docker://registry.cn-hangzhou.aliyuncs.com/corpbf/dongtai-mysql-unittest:latest
-         skopeo copy docker://docker.io/dongtai/dongtai-logstasht:latest docker://registry.cn-hangzhou.aliyuncs.com/corpbf/dongtai-logstash:latest
+         skopeo copy docker://docker.io/dongtai/dongtai-logstash:latest docker://registry.cn-hangzhou.aliyuncs.com/corpbf/dongtai-logstash:latest
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
